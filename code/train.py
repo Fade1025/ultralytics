@@ -7,7 +7,7 @@ if __name__ == "__main__":
 
     version = "11"  # Specify the YOLO version
     if version == "v8":
-        model_path = os.path.join(path, "ultralytics", "cfg", "models", "v8", "yolov8m.yaml")
+        model_path = os.path.join(path, "ultralytics", "cfg", "models", "v8", "yolov8s.yaml")
         weight_path = os.path.join(path, "weights/yolov8s.pt")
         data_path = os.path.join(path, "ultralytics/cfg/datasets/VOC-edit.yaml")
     elif version == "11":

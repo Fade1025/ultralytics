@@ -116,6 +116,6 @@ if __name__ == "__main__":
     batch_size = 2
     channels = 1024
     model = VisionTransformer(20, 1, 512, 10, 256, 8, 4, 256, 0.1)
-    x = torch.randn(64, 512, 20, 20)
+    x = torch.randn(64, 256, 20, 20)
     output = model(x)
     print(output.shape)
