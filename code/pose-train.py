@@ -3,7 +3,7 @@ import os
 
 path = os.getcwd()
 
-model_path = os.path.join(path, "ultralytics", "cfg", "models", "11", "yolo11-pose-edit.yaml")
+model_path = os.path.join(path, "ultralytics", "cfg", "models", "11", "yolo11m-pose-edit.yaml")
 weight_path = os.path.join(path, "weights/yolo11m-pose.pt")
 data_path = os.path.join(path, "ultralytics", "cfg", "datasets", "coco-pose-edit.yaml")
 
